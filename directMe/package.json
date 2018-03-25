@@ -1,0 +1,15 @@
+{
+  "name": "directme",
+  "version": "1.0.0",
+  "description": "Create a server which routes requests to the path `/foo/bar/baz/file.html` to a\r file in a directory, e.g. `public/file.html`, which contains the following:",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.2.3",
+    "inert": "^5.1.0"
+  }
+}
