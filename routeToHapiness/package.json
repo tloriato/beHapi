@@ -1,0 +1,15 @@
+{
+  "name": "routetohapiness",
+  "version": "1.0.0",
+  "description": "ROUTES  Exercise 2 of 13",
+  "main": "main.js",
+  "dependencies": {
+    "hapi": "^17.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
