@@ -7,7 +7,7 @@ const server = new Hapi.Server({
 
 function helloStranger(request, h){
     //console.log(request);
-    return `Hello ${request.params.name}`;
+    return `Hello ${encondeURIComponent(request.params.name)}`;
 }
 
 server.route({
